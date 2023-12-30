@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://abraham-ekoh-s-workspace-cp3bo4.us-east-1.xata.sh/db/tell",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
