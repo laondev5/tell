@@ -73,10 +73,10 @@ const Header = () => {
                     </>
                   ) : (
                     <>
-                      {MenuList.map((route, index) => (
+                      {MenuList.map((route, i) => (
                         <Button asChild variant="ghost">
                           <Link
-                            key={index}
+                            key={i}
                             href={route.href}
                             className="text-sm transition-colors font-medium"
                           >
@@ -117,10 +117,10 @@ const Header = () => {
               </>
             ) : (
               <>
-                {MenuList.map((route, index) => (
+                {MenuList.map((route, i) => (
                   <Button asChild variant="ghost">
                     <Link
-                      key={index}
+                      key={i}
                       href={route.href}
                       className="text-sm transition-colors font-medium"
                     >
