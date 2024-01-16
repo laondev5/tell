@@ -60,7 +60,7 @@ const Header = () => {
                   {isLoaded && user ? (
                     <>
                       {loggedInMenu.map((route, i) => (
-                        <Button asChild variant="ghost">
+                        <Button key={i}  asChild variant="ghost">
                           <Link
                             key={i}
                             href={route.href}
@@ -74,7 +74,7 @@ const Header = () => {
                   ) : (
                     <>
                       {MenuList.map((route, i) => (
-                        <Button asChild variant="ghost">
+                        <Button key={i} asChild variant="ghost">
                           <Link
                             key={i}
                             href={route.href}
@@ -104,7 +104,7 @@ const Header = () => {
             {isLoaded && user ? (
               <>
                 {loggedInMenu.map((route, i) => (
-                  <Button asChild variant="ghost">
+                  <Button key={i} asChild variant="ghost">
                     <Link
                       key={i}
                       href={route.href}
@@ -118,7 +118,7 @@ const Header = () => {
             ) : (
               <>
                 {MenuList.map((route, i) => (
-                  <Button asChild variant="ghost">
+                  <Button key={i} asChild variant="ghost">
                     <Link
                       key={i}
                       href={route.href}
