@@ -5,8 +5,8 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuLabel,
-} from "@/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+} from "./dropdown-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 import Link from "next/link";
 
 const ProfileButton = () => {
